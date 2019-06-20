@@ -315,7 +315,7 @@ extension ProductInterfaceController {
                         if let purchase = purchases.purchase(for: product) {
                             let subscriptionTerms: SubscriptionTerms?
                             
-                            if #available(iOS 11.2, *) {
+                            if #available(iOS 11.2, tvOS 11.2, *) {
                                 subscriptionTerms = purchase.subscriptionTerms
                             } else {
                                 subscriptionTerms = nil

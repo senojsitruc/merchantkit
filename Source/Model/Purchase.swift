@@ -124,7 +124,7 @@ public struct Purchase : Hashable, CustomStringConvertible {
         }()
         
         let retentionOffers: [SubscriptionTerms.RetentionOffer] = {
-            if #available(iOS 12.2, *) {
+            if #available(iOS 12.2, tvOS 12.2, *) {
                 return self.source.skProduct.discounts.compactMap { subscriptionTermsRetentionOffer(from: $0) }
             } else {
                 return []

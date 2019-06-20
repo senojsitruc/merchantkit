@@ -60,7 +60,7 @@ class ProductInterfaceControllerTests : XCTestCase {
                 
                     switch state {
                         case .purchased(_, let metadata):
-                            if #available(iOS 11.2, *) {
+                            if #available(iOS 11.2, tvOS 11.2, *) {
                                 if case .subscription(automaticallyRenews: _) = product.kind {
                                     XCTAssertNotNil(metadata?.subscriptionTerms, "Subscription products should have associated subscription terms.")
                                 } else {
