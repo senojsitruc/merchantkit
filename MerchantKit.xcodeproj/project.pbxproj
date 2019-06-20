@@ -1124,7 +1124,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymayo.MerchantKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator tvOS";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator tvos";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -1172,7 +1172,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymayo.MerchantKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator tvOS";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator tvos";
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
