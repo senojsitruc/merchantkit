@@ -1,6 +1,6 @@
 import XCTest
 
-@available(iOS 11.2, *)
+@available (iOS 11.2, tvOS 11.2, *)
 internal class MockSKProductDiscount : SKProductDiscount {
     private let _price: NSDecimalNumber
     private let _priceLocale: Locale
@@ -37,7 +37,7 @@ internal class MockSKProductDiscount : SKProductDiscount {
     }
 }
 
-@available(iOS 12.2, *)
+@available(iOS 12.2, tvOS 12.2, *)
 internal class MockSKProductDiscountWithIdentifier : MockSKProductDiscount {
     private let _identifier: String
     

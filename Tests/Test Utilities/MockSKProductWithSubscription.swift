@@ -1,6 +1,6 @@
 import StoreKit
 
-@available (iOS 11.2, *)
+@available (iOS 11.2, tvOS 11.2, *)
 internal class MockSKProductWithSubscription : SKProduct {
     private let _productIdentifier: String
     private let _price: NSDecimalNumber
