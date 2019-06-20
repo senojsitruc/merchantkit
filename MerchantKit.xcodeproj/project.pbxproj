@@ -1123,6 +1123,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymayo.MerchantKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
 				SWIFT_COMPILATION_MODE = singlefile;
@@ -1172,6 +1173,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonymayo.MerchantKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
 				SWIFT_INCLUDE_PATHS = "";
